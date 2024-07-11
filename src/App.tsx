@@ -4,6 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 import Axios from "./axios";
+// import AxiosOutput from "./";
+// import Axios from "./axios.jsx";
+import AxiosOutput from "./axios.tsx"; 
 
 // import PersonList from "./components/PersonList.js";
 // import Snap from "./components/bro.tsx";
@@ -17,7 +20,7 @@ function App() {
   return (
     <>
       <div>
-        <Axios />
+        <AxiosOutput />
         {/* <PersonList /> */}
         {/* <Snap /> */}
         <a href="https://vitejs.dev" target="_blank">
