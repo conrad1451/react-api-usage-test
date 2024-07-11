@@ -9,7 +9,7 @@ import Axios from "./axios";
 // import Snap from "./components/bro.tsx";
 
 // import PersonList from "./components2/PersonList.jsx";
-import PersonList from "./components2/PersonList2.tsx";
+// import PersonList from "./components2/PersonList2.tsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +18,7 @@ function App() {
     <>
       <div>
         <Axios />
-        <PersonList />
+        {/* <PersonList /> */}
         {/* <Snap /> */}
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
