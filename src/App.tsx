@@ -3,10 +3,10 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-import Axios from "./axios";
+// import Axios from "./axios";
 // import AxiosOutput from "./";
 // import Axios from "./axios.jsx";
-import AxiosOutput from "./axios.tsx"; 
+import AxiosOutput from "./axios.tsx";
 
 // import PersonList from "./components/PersonList.js";
 // import Snap from "./components/bro.tsx";
